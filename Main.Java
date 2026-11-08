@@ -14,8 +14,12 @@ public class Main {
 
         //Adicionando uma sinopse no filme
         String sinopse;
-        sinopse = "Filme de aventura com galã dos anos 80";
-
-
+        //Concatenação da String sinopse
+        sinopse = """
+                Filme Top Gun
+                Film de aventura com galã dos anos 90
+                Muito bom!
+                Ano de Lançamento        
+                """ + anoDeLancamento;
     }
 }
