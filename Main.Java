@@ -1,5 +1,5 @@
 public class Main {
-    puclib static void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println("Esse é o Screen Match");
         System.out.println("Filme: Top Gun: Maverick");
 
@@ -15,6 +15,7 @@ public class Main {
         //Adicionando uma sinopse no filme
         String sinopse;
         sinopse = "Filme de aventura com galã dos anos 80";
-        
+
+
     }
 }
