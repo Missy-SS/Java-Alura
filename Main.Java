@@ -7,5 +7,10 @@ public class Main {
         System.out.println("Ano de lançamento: " + anoDeLancamento);
         boolean incluidoNoPlano = true;
         double notaDoFilme = 8.1;
+
+        //Adicionando a media da nota do filme
+        double media = (9.8 + 6.3 + 8) / 3;
+        System.out.println(media);
+
     }
 }
