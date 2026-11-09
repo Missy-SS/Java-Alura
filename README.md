@@ -65,4 +65,37 @@ String mensagem = """
                   Ele permite escrever textos com múltiplas linhas
                   sem precisar usar caracteres de escape ou quebras de linha manualmente ou concatenações.
                   """;
-    
+
+#### Formatação de Textos
+
+Uma das maneiras mais comuns de formatar um texto em Java é com o método *format()*, da classe String.
+
+Esse método permite formatar um texto utilizando diversos placeholders, que são representados pelo caractere *%* seguido de uma letra que indica o tipo de dado que será inserido no placeholder.
+
+String nome = "Maria";
+int idade = 30;
+double valor = 55.9999;
+System.out.println("String.format("Meu nome é %s, eu tenho %d anos e hoje gastei %.2f reais", nome, idade, valor));
+
+//Saída formatada: "Meu nome é Maria, eu tenho 30 anos e hoje gastei 56,00 reais"
+
+Também pode ser usado com Text Block, onde usa o método *formatted*, para informar as variáveis que deverão ser utilizadas no lugar dos placeholders.
+
+String nome = "João";
+int aulas = 4;
+
+String mensagem = """
+                  Olá, %s!
+                  Boas vindas ao curso de Java.
+                  Teremos %d aulas para te mostrar o que é preciso para você dar o seu primeiro mergulho na linguagem!
+                  """.formatted(nome, aulas);
+
+System.out.println(mensagem);
+
+Saída formatada: 
+Olá, João!
+
+Boas vindas ao curso de Java.
+
+Teremos 4 aulas para te mostrar o que é preciso para você dar o seu primeiro mergulho na linguagem!
+
