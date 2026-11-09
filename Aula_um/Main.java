@@ -13,12 +13,20 @@ public class Main {
         System.out.println(media);
 
         //Adicionando uma sinopse no filme
-        String sinopse;
         //Concatenação da String sinopse, text block
+        String sinopse= """
                 Filme Top Gun
                 Film de aventura com galã dos anos 90
                 Muito bom!
                 Ano de Lançamento        
                 """ + anoDeLancamento;
+        System.out.println(sinopse);
+
+        //Convertendo valores
+
+        int classificacao;
+
+        classificacao = (int) (media/2);
+        System.out.println(classificacao);
     }
 }
