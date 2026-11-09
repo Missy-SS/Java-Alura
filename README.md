@@ -103,3 +103,30 @@ Teremos 4 aulas para te mostrar o que é preciso para você dar o seu primeiro m
 - class;
 - for;
 - if
+  
+#### Casting
+
+É um recurso utilizado em Java para converter um tipo de dado em outro. Pode ser feito de forma automática pelo compilador (**conversão implícita**), quando o tipo de dado de destino é compatível com o tipo de dado de origem, ou de forma manual (**conversão explícita**), utilizando o operador de casting.
+
+É utilizado para permitir que tipos de dados incompatíveis possam ser utilizados em uma mesma operação ou expressão. Exemplo: se um método espera um parâmetro do tipo int e o valor que se deseja passar é do tipo *double*, é necessário fazer um casting para converter o valor em *int*.
+
+#### Casting implícito
+Realizado automaticamente pelo compilador quando o tipo de dado de origem é compatível com o tipo de dado de destino. 
+
+O tipo double é maior que o tipo int e suporta todos os valores que o tipo int pode armazenar.
+
+int x = 10;
+double y = x;
+
+#### Casting explícito
+Realizado quando o tipo de dado de origem é incompatível com o tipo de dado de destino.
+
+O tipo int não suporta todos os valores do tipo double.
+
+double x = 10.5;
+int y = (int) x;
+
+#### Conversões
+
+![alt text](image.png)
+
