@@ -23,5 +23,46 @@
   **if (condicao) {**
 
   - Use comentários para documentar seu código, explicando o que ele faz e por que ele faz isso. Devem ser claros e concisos.
+  
+### Strings e Text Blocks
 
+String = representa uma sequência de caracteres (texto).
+
+#### Criação de Strings
+
+String nome = "Alura";
+
+É possível concatenar duas ou mais Strings utilizando o '+'
+
+String saudacao = "Olá, ";
+String nome = "Alura";
+String mensagem = saudacao + nome + "!";
+
+//Saída: "Olá, Alura!"
+
+#### Comparação de Strings
+
+O operador de comparação (==) verifica apenas se as duas variáveis *apontam para o mesmo objeto na memória*, e não para o conteúdo das strings. 
+
+Para comparar o *conteúdo* das strings, é necessário usar o método **equals()**
+
+String senha = "12345";
+if (senha.equals("12345")) {
+    System.out.println("Acesso autorizado!");
+} else {
+    System.out.println("Senha incorreta.");
+}
+
+#### Text Block
+É uma forma de representar Strings que facilitam a escrita de textos com múltiplas linhas.
+
+##### Sintaxe do Text Block
+Basta utilizar três aspas duplas para delimitar o texto, seguidas de uma quebra de linha.
+
+String mensagem = """
+                  Olá, mundo!
+                  Este é um Text Block.
+                  Ele permite escrever textos com múltiplas linhas
+                  sem precisar usar caracteres de escape ou quebras de linha manualmente ou concatenações.
+                  """;
     
