@@ -99,3 +99,7 @@ Boas vindas ao curso de Java.
 
 Teremos 4 aulas para te mostrar o que é preciso para você dar o seu primeiro mergulho na linguagem!
 
+**O Java possui palavras reservadas que não podem ser utilizadas fora de suas atribuições, como:**
+- class;
+- for;
+- if
