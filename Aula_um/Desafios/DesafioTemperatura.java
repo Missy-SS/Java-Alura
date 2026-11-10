@@ -5,7 +5,7 @@ public class DesafioTemperatura {
         double temperaturaEmCelsius = 30.4;
         double temperaturaEmFahrenheit = (temperaturaEmCelsius * 1.8) + 32;
 
-        String mensagem = String.format("A temperatura de %.2f Celsius é equivalente a %.2f em Celsius", temperaturaEmFahrenheit, temperaturaEmCelsius);
+        String mensagem = String.format("A temperatura de %.2f Fahrenheit é equivalente a %.2f em Celsius", temperaturaEmFahrenheit, temperaturaEmCelsius);
 
         System.out.println(mensagem);
 
